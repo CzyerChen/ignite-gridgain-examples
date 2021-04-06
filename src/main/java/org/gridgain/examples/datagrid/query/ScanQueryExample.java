@@ -94,9 +94,10 @@ public class ScanQueryExample {
 
                 System.out.println();
 
-                for (List row : res)
-                    System.out.println("Person [name=" + ((String)row.get(0) + ' ' + row.get(1)) + ", salary=" +
-                        row.get(2) + ']');
+                for (List row : res) {
+                    System.out.println("Person [name=" + ((String) row.get(0) + ' ' + row.get(1)) + ", salary=" +
+                            row.get(2) + ']');
+                }
             }
         }
     }

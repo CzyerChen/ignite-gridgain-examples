@@ -26,8 +26,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <gridgain.version>7.7.3</gridgain.version>
-        <ignite.version>1.7.3</ignite.version>
+        <gridgain.version>6.6.9</gridgain.version>
+        <ignite.version>2.10.0</ignite.version>
+        <ignite.geo.version>1.0.0</ignite.geo.version>
+        <ignite.hibernate.version>1.0.0</ignite.hibernate.version>
         <mongodb.version>RELEASE</mongodb.version>
         <embedded.mongo.version>RELEASE</embedded.mongo.version>
         <morphia.version>RELEASE</morphia.version>
@@ -62,13 +64,13 @@
         <dependency>
             <groupId>org.apache.ignite</groupId>
             <artifactId>ignite-geospatial</artifactId>
-            <version>${ignite.version}</version>
+            <version>${ignite.geo.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.ignite</groupId>
             <artifactId>ignite-hibernate</artifactId>
-            <version>${ignite.version}</version>
+            <version>${ignite.hibernate.version}</version>
         </dependency>
 
         <dependency>
